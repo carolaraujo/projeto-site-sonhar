@@ -1,0 +1,112 @@
+/* Estilos gerais */
+
+body {
+background-color: yellow; /* background significa fundo */
+}
+
+h2, h3, h4 {
+font-size: 24px; /* font-size significa tipo de fonte(letra) usar */
+text-align: center; /* text significa texto */
+}
+
+/* Estilos barra de Navegação */
+
+nav {
+display: flex; /* display significa visor/tela */
+justify-content: center;
+background-color: black;
+padding: 10px;
+}
+
+nav ul {
+list-style-type: none; /* list significa lista / style é estilo / type é tipo */
+margin: 0;
+padding: 0; /* padding significa preenchimento */
+}
+
+nav ul li {
+display: inline;
+margin-right: 10px; /* margin-right significa margem certa */
+}
+
+nav ul li a {
+text-decoration: none;
+color: white; /* color significa cor */
+}
+
+/* Estilos do corpo (body) do site */
+
+.div-do-quadrado1 {
+display: flex;
+align-items: center; /* align-item significa alinhar um item */
+text-align: center; 
+}
+
+.div-do-quadrado1 img {
+width: 400px;
+margin-right: 10px;
+padding: 50px;
+}
+
+.div-do-quadrado1 p {
+flex-grow: 1; /* flex-grow significa ajustar o crescimento */
+}
+
+.paragrafo1 {
+text-align: left;
+}
+
+.contatos img {
+width: 50px;
+margin-right: 10px;
+}
+
+.nossos-modelos {
+display: flex;
+flex-direction: column;
+justify-content: center; /* justify-content significa justificar o conteúdo */
+align-items: center;
+height: 100vh; /* height significa altura */
+}
+
+.row {
+display: flex;
+justify-content: center;
+}
+
+.col {
+margin: 10px; /* Define a margem desejada para as imagens */
+width: 200px; /* width significa largura */
+height: 200px; /* Define a altura desejada para as imagens */
+}
+
+.col img {
+width: 100%; /* width significa largura */
+height: 100%;
+object-fit: cover; /* object-fit significa ajuste do objeto */
+}
+
+.contatos p {
+    text-align: center;
+}
+
+.contatos img {
+    display: flex;
+    align-items: center;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    font-size: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
+  }
+  
+.icones img {
+    margin-right: 10px; /* Ajuste o espaçamento entre os ícones conforme necessário */
+}
+
+.footer p {
+    text-align: center;
+}
+  
+
